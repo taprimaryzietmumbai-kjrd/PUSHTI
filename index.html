@@ -219,7 +219,7 @@ footer{text-align:center;color:#718294;font-size:12px;padding:20px}
 <form id="form" novalidate="">
 <section class="card"><div class="head"><div class="ico">👤</div><div><h2>Workshop Participant Profile</h2><div class="sub">The same core participant details used in the previous application</div></div></div>
 <div class="grid">
-<label>Name of the Workshop Participant *<input id="name" required=""/></label>
+<label>Name of the Workshop Participant *<input id="name" list="prtmParticipantOptions" autocomplete="off" required=""/><datalist id="prtmParticipantOptions"></datalist><small id="prtmLoadStatus" style="display:block;margin-top:5px;color:#68798a;font-weight:500">Loading PRTM ADI participant list…</small></label>
 <label>Designation *<select id="designation" required=""><option value="">-- Select Post / Designation --</option><option>Principal</option><option>Vice-Principal</option><option>Headmaster / Headmistress</option><option>Librarian</option><option>PGT (English)</option><option>PGT (Hindi)</option><option>PGT (Physics)</option><option>PGT (Chemistry)</option><option>PGT (Mathematics)</option><option>PGT (Economics)</option><option>PGT (History)</option><option>PGT (Geography)</option><option>PGT (Commerce)</option><option>PGT (Biology)</option><option>PGT (Bio-Technology)</option><option>TGT (Hindi)</option><option>TGT (English)</option><option>TGT (Sanskrit)</option><option>TGT (Social Studies)</option><option>TGT (Mathematics)</option><option>TGT (Science)</option><option>TGT (Physical & Health Edn.)</option><option>TGT (Art Education)</option><option>TGT (Work Experience)</option><option>Special Educator (TGT)</option><option>Special Educator (PRT)</option><option>PRT</option><option>PRT(Music)</option><option>Administrative Officer</option><option>Finance Officer</option><option>Assistant Engineer</option><option>Assistant Section Officer</option><option>Junior Translator</option><option>Sr. Secretariat Assistant</option><option>Jr. Secretariat Assistant</option><option>Steno Gr I</option><option>Steno Gr II</option><option>WET</option><option>AET</option><option>PRTM</option><option>JSA</option><option>SSA</option><option>SO</option><option>AO</option></select></label>
 <label>📚 Name of the Course / Workshop *<select id="courseName" required><option value="">-- Select Course / Workshop --</option><option value="Orientation Programme for Master Trainers on New English Textbooks with Focus on Competency-Based Education (CBE)" data-duration="4 Days">Orientation Programme for Master Trainers on New English Textbooks with Focus on Competency-Based Education (CBE)</option><option value="Orientation Programme for Master Trainers on New Hindi Textbooks with Focus on Competency-Based Education (CBE)" data-duration="4 Days">Orientation Programme for Master Trainers on New Hindi Textbooks with Focus on Competency-Based Education (CBE)</option><option value="Orientation Programme for Master Trainers on New Sanskrit Textbooks with Focus on Competency-Based Education (CBE)" data-duration="4 Days">Orientation Programme for Master Trainers on New Sanskrit Textbooks with Focus on Competency-Based Education (CBE)</option><option value="Orientation Programme for Master Trainers on New Mathematics Textbooks with Focus on Competency-Based Education (CBE)" data-duration="4 Days">Orientation Programme for Master Trainers on New Mathematics Textbooks with Focus on Competency-Based Education (CBE)</option><option value="Orientation Programme for Master Trainers on New Science Textbooks with Focus on Competency-Based Education (CBE)" data-duration="4 Days">Orientation Programme for Master Trainers on New Science Textbooks with Focus on Competency-Based Education (CBE)</option><option value="Orientation Programme for Master Trainers on New Social Science Textbooks with Focus on Competency-Based Education (CBE)" data-duration="4 Days">Orientation Programme for Master Trainers on New Social Science Textbooks with Focus on Competency-Based Education (CBE)</option><option value="Review Workshop on Student Support Material for Classes XI &amp; XII (English)" data-duration="5 Days">Review Workshop on Student Support Material for Classes XI &amp; XII (English)</option><option value="Review Workshop on Student Support Material for Classes XI &amp; XII (Computer Science &amp; Informatics Practices)" data-duration="5 Days">Review Workshop on Student Support Material for Classes XI &amp; XII (Computer Science &amp; Informatics Practices)</option><option value="Review Workshop on Student Support Material for Classes XI &amp; XII (Biotechnology)" data-duration="5 Days">Review Workshop on Student Support Material for Classes XI &amp; XII (Biotechnology)</option><option value="Strategic School Leadership: Academic Rigor, Administrative Efficiency &amp; Financial Prudence" data-duration="5 Days">Strategic School Leadership: Academic Rigor, Administrative Efficiency &amp; Financial Prudence</option><option value="Developing Leadership Competencies for Academic Excellence" data-duration="5 Days">Developing Leadership Competencies for Academic Excellence</option><option value="Academic Planning and Instructional Supervision under NEP 2020" data-duration="5 Days">Academic Planning and Instructional Supervision under NEP 2020</option><option value="Learning Economics through Experience and Real World Applications" data-duration="4 Days">Learning Economics through Experience and Real World Applications</option><option value="Experiential &amp; Inquiry-Based Learning in Physics Classrooms" data-duration="4 Days">Experiential &amp; Inquiry-Based Learning in Physics Classrooms</option><option value="From Content to Competencies : Innovative Chemistry Pedagogies" data-duration="4 Days">From Content to Competencies : Innovative Chemistry Pedagogies</option><option value="Innovative Interventions in Mathematics Classrooms: A Competency driven approach" data-duration="4 Days">Innovative Interventions in Mathematics Classrooms: A Competency driven approach</option><option value="Competency-Based Commerce Education: From Theory to Real World Application" data-duration="4 Days">Competency-Based Commerce Education: From Theory to Real World Application</option><option value="Transforming History Classrooms through Inquiry-Based and Experiential Learning" data-duration="4 Days">Transforming History Classrooms through Inquiry-Based and Experiential Learning</option><option value="दक्षता आधारित हिन्दी शिक्षण: अवधारणा से अभिव्यक्ति तक" data-duration="4 Days">दक्षता आधारित हिन्दी शिक्षण: अवधारणा से अभिव्यक्ति तक</option><option value="Innovative Pedagogies in Teaching Geography" data-duration="4 Days">Innovative Pedagogies in Teaching Geography</option><option value="Smart Code for Every Learner: Teaching Computer Science with AI &amp; Orange Data Mining" data-duration="4 Days">Smart Code for Every Learner: Teaching Computer Science with AI &amp; Orange Data Mining</option><option value="Fostering Critical &amp; Creative Thinking in English Classrooms" data-duration="4 Days">Fostering Critical &amp; Creative Thinking in English Classrooms</option><option value="21st Century Skills" data-duration="1 Day">21st Century Skills</option><option value="Nurturing Foundations: Play-Based &amp; Experiential Learning in Balvatika" data-duration="3 Days">Nurturing Foundations: Play-Based &amp; Experiential Learning in Balvatika</option><option value="Experiential &amp; Activity based teaching of English for Joyful Learning" data-duration="4 Days">Experiential &amp; Activity based teaching of English for Joyful Learning</option><option value="अनुभवात्मक एवं संवादात्मक हिन्दी कक्षा: सक्रिय अधिगम की ओर" data-duration="4 Days">अनुभवात्मक एवं संवादात्मक हिन्दी कक्षा: सक्रिय अधिगम की ओर</option><option value="Digital Pedagogy &amp; ICT Skills" data-duration="1 Day">Digital Pedagogy &amp; ICT Skills</option><option value="From Concept to Clarity: Creating Meaningful Mathematics Teaching Experiences" data-duration="4 Days">From Concept to Clarity: Creating Meaningful Mathematics Teaching Experiences</option><option value="Building Blocks of Learning: Foundational Literacy &amp; Numeracy in Action" data-duration="4 Days">Building Blocks of Learning: Foundational Literacy &amp; Numeracy in Action</option><option value="Inclusive Education" data-duration="1 Day">Inclusive Education</option><option value="Experiential &amp; Inquiry -Based Approaches in Teaching of Social Science" data-duration="4 Days">Experiential &amp; Inquiry -Based Approaches in Teaching of Social Science</option><option value="Competency Based Science Teaching: From Content Coverage to Conceptual Clarity" data-duration="4 Days">Competency Based Science Teaching: From Content Coverage to Conceptual Clarity</option><option value="Sounds to Sense: Strengthening Language acquisition through Phonics and Meaning making" data-duration="4 Days">Sounds to Sense: Strengthening Language acquisition through Phonics and Meaning making</option><option value="Transforming Biology Teaching from content delivery to Competency development and Assessment" data-duration="4 Days">Transforming Biology Teaching from content delivery to Competency development and Assessment</option><option value="संस्कृत एवं भारतीय ज्ञान परंपरा: समकालीन शिक्षा में एकीकरण" data-duration="4 Days">संस्कृत एवं भारतीय ज्ञान परंपरा: समकालीन शिक्षा में एकीकरण</option><option value="Strategic Academic Leadership for Foundational &amp; Preparatory Education" data-duration="5 Days">Strategic Academic Leadership for Foundational &amp; Preparatory Education</option><option value="Where Art Meets Experience: Transforming Classroom Pedagogy" data-duration="5 Days">Where Art Meets Experience: Transforming Classroom Pedagogy</option><option value="Work Education for Skill Development and Vocational Exposure" data-duration="5 Days">Work Education for Skill Development and Vocational Exposure</option><option value="Physical Education as a Foundation for Holistic Development" data-duration="5 Days">Physical Education as a Foundation for Holistic Development</option><option value="Transforming Libraries through Automation and Digital Tools" data-duration="5 Days">Transforming Libraries through Automation and Digital Tools</option><option value="Rhythm, Raga and Reflection: Reimagining Music Education with Bansuri" data-duration="5 Days">Rhythm, Raga and Reflection: Reimagining Music Education with Bansuri</option><option value="Hands-on to Minds-on: Developing Problem-Solving Skills in Mathematics" data-duration="4 Days">Hands-on to Minds-on: Developing Problem-Solving Skills in Mathematics</option><option value="Experiential Learning in The World Around Us: Connecting Classroom with Life" data-duration="4 Days">Experiential Learning in The World Around Us: Connecting Classroom with Life</option><option value="Compliance to Accountability: Service Rules, Administration and Financial Governance" data-duration="3 Days">Compliance to Accountability: Service Rules, Administration and Financial Governance</option><option value="Office Automation, Administrative Matters &amp; Financial Procedures" data-duration="3 Days">Office Automation, Administrative Matters &amp; Financial Procedures</option><option value="E-Office Management, Record Keeping, Documentation &amp; Compliance Practices" data-duration="3 Days">E-Office Management, Record Keeping, Documentation &amp; Compliance Practices</option><option value="Basic Laboratory Skills, Safety Practices and Equipment handling for Multi-Tasking Staff (MTS)" data-duration="3 Days">Basic Laboratory Skills, Safety Practices and Equipment handling for Multi-Tasking Staff (MTS)</option><option value="__OTHER__">Other — Write your own workshop title</option></select></label>
 <label id="courseOtherWrap" style="display:none">✍️ Other Course / Workshop Name *<input id="courseOther" maxlength="300" placeholder="Write the workshop / course title"/></label>
@@ -230,6 +230,8 @@ footer{text-align:center;color:#718294;font-size:12px;padding:20px}
 <label>Social Category *<select id="cat" required=""><option value="">Select Social Category</option><option>General</option><option>SC</option><option>ST</option><option>OBC NCL</option><option>EWS</option><option>DA / PwD</option></select></label>
 <label>Select Your Region *<select id="region" onchange="if(window.populateKVsForRegion){populateKVsForRegion(this.value)}" required=""><option value="">Select Region First</option><option value="Agra Region">Agra Region</option><option value="Ahmedabad Region">Ahmedabad Region</option><option value="Bengaluru Region">Bengaluru Region</option><option value="Bhopal Region">Bhopal Region</option><option value="Bhubaneswar Region">Bhubaneswar Region</option><option value="Chandigarh Region">Chandigarh Region</option><option value="Chennai Region">Chennai Region</option><option value="Dehradun Region">Dehradun Region</option><option value="Delhi Region">Delhi Region</option><option value="Ernakulam Region">Ernakulam Region</option><option value="Gurugram Region">Gurugram Region</option><option value="Guwahati Region">Guwahati Region</option><option value="Hyderabad Region">Hyderabad Region</option><option value="Jabalpur Region">Jabalpur Region</option><option value="Jaipur Region">Jaipur Region</option><option value="Jammu Region">Jammu Region</option><option value="Kolkata Region">Kolkata Region</option><option value="Lucknow Region">Lucknow Region</option><option value="Mumbai Region">Mumbai Region</option><option value="Patna Region">Patna Region</option><option value="Raipur Region">Raipur Region</option><option value="Ranchi Region">Ranchi Region</option><option value="Silchar Region">Silchar Region</option><option value="Tinsukia Region">Tinsukia Region</option><option value="Varanasi Region">Varanasi Region</option></select></label>
 <label>Kendriya Vidyalaya / Vidyalaya *<select disabled="" id="kv" required=""><option value="">Select Region First</option></select></label>
+<label>Employee Code<input id="employeeCode" readonly placeholder="Auto-filled from PRTM ADI"/></label>
+<label>Educational Qualification<input id="educationalQualification" readonly placeholder="Auto-filled from PRTM ADI"/></label>
 </div></section>
 <section class="card"><div class="head"><div class="ico">🎯</div><div>
 <h2 class="section-b-competence-heading">I can help my co-learners by contributing to their:</h2>
@@ -554,6 +556,8 @@ function collectData(){
   return {
     participantName: document.getElementById("name").value.trim(),
     designation: document.getElementById("designation").value,
+    employeeCode: document.getElementById("employeeCode")?.value || "",
+    educationalQualification: document.getElementById("educationalQualification")?.value || "",
     courseName: document.getElementById("courseName").value === "__OTHER__"
       ? document.getElementById("courseOther").value.trim()
       : document.getElementById("courseName").value,
@@ -784,6 +788,84 @@ function populateKVsForRegion(region){
   });
 }
 
+
+const PRTM_PARTICIPANTS_API = "https://script.google.com/macros/s/AKfycbyykH9hucLsCnU4481Nz_y6ccfkLxTqPgVStWskxKpwe1i0_S4mCSISS1afmOEiTjD2/exec?action=participants";
+let prtmParticipants = [];
+
+function setSelectFromRoster(select, value, fallbackLabel) {
+  if (!select || !value) return;
+  const wanted = String(value).trim().toLowerCase();
+  let option = [...select.options].find(o => o.value.trim().toLowerCase() === wanted || o.textContent.trim().toLowerCase() === wanted);
+  if (!option) {
+    option = new Option(fallbackLabel || value, value);
+    select.add(option);
+  }
+  select.value = option.value;
+}
+
+function populatePushtiParticipant(record) {
+  if (!record) return;
+  const designation = document.getElementById("designation");
+  setSelectFromRoster(designation, record.designation, record.designation);
+  const regionValue = record.region ? (record.region.trim() + " Region") : "";
+  if (regionValue && [...regionSelect.options].some(o => o.value.toLowerCase() === regionValue.toLowerCase())) {
+    regionSelect.value = regionValue;
+    populateKVsForRegion(regionValue);
+  }
+  const school = String(record.school || "").trim();
+  if (school) {
+    const match = [...kvSelect.options].find(o => o.textContent.trim().toLowerCase() === school.toLowerCase());
+    if (match) kvSelect.value = match.value;
+    else {
+      const fallbackValue = "PRTM-" + String(record.employeeCode || record.name).replace(/[^a-z0-9]/gi, "");
+      const existing = [...kvSelect.options].find(o => o.value === fallbackValue);
+      if (!existing) kvSelect.add(new Option(school, fallbackValue));
+      kvSelect.value = fallbackValue;
+    }
+    kvSelect.disabled = false;
+  }
+  document.getElementById("employeeCode").value = record.employeeCode || "";
+  document.getElementById("educationalQualification").value = record.educationalQualification || "";
+  const joining = String(record.joiningYear || "").trim();
+  const yearMatch = joining.match(/(?:19|20)\\d{2}/);
+  const joiningYear = document.getElementById("kvsJoiningYear");
+  if (joiningYear) joiningYear.value = yearMatch ? yearMatch[0] : "";
+}
+
+async function loadPushtiParticipants() {
+  const nameInput = document.getElementById("name");
+  const list = document.getElementById("prtmParticipantOptions");
+  const note = document.getElementById("prtmLoadStatus");
+  try {
+    const response = await fetch(PRTM_PARTICIPANTS_API, { method: "GET", mode: "cors", cache: "no-store" });
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    const result = await response.json();
+    if (!result.success || !Array.isArray(result.participants)) throw new Error(result.message || "Participant list unavailable");
+    prtmParticipants = result.participants;
+    list.innerHTML = "";
+    prtmParticipants.forEach(person => {
+      const option = document.createElement("option");
+      option.value = person.name;
+      list.appendChild(option);
+    });
+    note.textContent = prtmParticipants.length + " participants loaded from PRTM ADI. Select or type a participant name to auto-fill their profile.";
+    note.style.color = "#167255";
+  } catch (error) {
+    note.textContent = "PRTM ADI list could not be loaded. You may enter the participant details manually. (" + error.message + ")";
+    note.style.color = "#a53e32";
+  }
+}
+
+document.getElementById("name").addEventListener("change", () => {
+  const chosen = document.getElementById("name").value.trim().toLowerCase();
+  const record = prtmParticipants.find(p => String(p.name || "").trim().toLowerCase() === chosen);
+  if (record) {
+    populatePushtiParticipant(record);
+  } else {
+    ["employeeCode", "educationalQualification"].forEach(id => { document.getElementById(id).value = ""; });
+  }
+});
+
 function handleRegionChange(){
   populateKVsForRegion(regionSelect.value);
 }
@@ -803,6 +885,7 @@ resetBtn?.addEventListener("click",()=>{
 
 populateRegions();
 populateKVsForRegion(regionSelect.value || "");
+loadPushtiParticipants();
 calc();
 </script><!-- Course titles/durations sourced from the user-supplied ZIET Mumbai Annual Training Calendar 2026-27. Workshop date is intentionally unrestricted. -->
 </body></html>
