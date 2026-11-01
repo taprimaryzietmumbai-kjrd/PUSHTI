@@ -827,7 +827,7 @@ function populatePushtiParticipant(record) {
   document.getElementById("employeeCode").value = record.employeeCode || "";
   document.getElementById("educationalQualification").value = record.educationalQualification || "";
   const joining = String(record.joiningYear || "").trim();
-  const yearMatch = joining.match(/(?:19|20)\\d{2}/);
+  const yearMatch = joining.match(/(?:19|20)\d{2}/);
   const joiningYear = document.getElementById("kvsJoiningYear");
   if (joiningYear) joiningYear.value = yearMatch ? yearMatch[0] : "";
 }
